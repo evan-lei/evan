@@ -1,0 +1,641 @@
+Ttest
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/ResourceRules.plist
+cProcessPCH /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-egaqqqstqzdxgtfqxuueyvjyehlk/test-Prefix.pch.pch test/test-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-djrmbnnltarwetcfgibpxtqojdkd/test-Prefix.pch.pch test/test-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-deqahstdankjimailppxwbrtxdip/test-Prefix.pch.pch test/test-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.o /Users/evan/Desktop/myGit/test/test/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.o /Users/evan/Desktop/myGit/test/test/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.o /Users/evan/Desktop/myGit/test/test/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.o /Users/evan/Desktop/myGit/test/test/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/AppDelegate.o /Users/evan/Desktop/myGit/test/test/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/main.o /Users/evan/Desktop/myGit/test/test/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test normal armv7
+cLd /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test normal armv7s
+cLd /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/test normal arm64
+cCreateUniversalBinary /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/test normal armv7\ armv7s\ arm64
+cCopyStringsFile /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app /Users/evan/Desktop/myGit/test/test/Images.xcassets
+cProcessInfoPlistFile /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/Info.plist /Users/evan/Desktop/myGit/test/test/test-Info.plist
+cGenerateDSYMFile /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app.dSYM /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/test
+cProcessProductPackaging /Users/evan/Library/MobileDevice/Provisioning\ Profiles/515F4439-B39C-4E87-B22F-D6C88664E2C6.mobileprovision /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/embedded.mobileprovision
+cTouch /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app
+cProcessProductPackaging /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test.xcent
+cCodeSign /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app
+cValidate /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app
+
+N/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c000000005311A6B00000000000000094
+t1393665712
+s148
+
+N/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c000000005311A6B00000000000000096
+t1393665712
+s150
+
+N/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c000000005311A6B0000000000000036B
+t1393665712
+s875
+
+N/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005311A6B2000000000000019E
+t1393665714
+s414
+
+N/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005311A6B300000000004D7BC0
+t1393665715
+s5077952
+
+N/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005311A6B40000000000A90C10
+t1393665716
+s11078672
+
+N/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005311A6B80000000002759920
+t1393665720
+s41261344
+
+N/Applications/Xcode 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053100EA20000000000000ADC
+t1393561250
+s2780
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/AppDelegate.o
+t1402204225
+s68688
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/main.o
+t1402204225
+s4408
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/test
+t1402204225
+s53172
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/test.LinkFileList
+c000000005393F03F00000000000000D7
+t1402204223
+s215
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.o
+t1402204225
+s63460
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.o
+t1402204225
+s3784
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test
+t1402204225
+s52988
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test.LinkFileList
+c000000005393F03F00000000000000D7
+t1402204223
+s215
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.o
+t1402204225
+s63436
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.o
+t1402204225
+s3784
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test
+t1402204225
+s52988
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test.LinkFileList
+c000000005393F03F00000000000000D9
+t1402204223
+s217
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/assetcatalog_dependencies.txt
+t1402204226
+s275
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/assetcatalog_generated_info.plist
+t1402204226
+s525
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test.xcent
+t1402204227
+s406
+
+N/Users/evan/Desktop/myGit/test/test/AppDelegate.m
+c000000005393C975000000000000087B
+t1402194293
+s2171
+
+N/Users/evan/Desktop/myGit/test/test/Images.xcassets
+c000000005393C8E30000000000000088
+t1402194147
+s136
+
+N/Users/evan/Desktop/myGit/test/test/en.lproj/InfoPlist.strings
+c000000005393C8E3000000000000002D
+t1402194147
+s45
+
+N/Users/evan/Desktop/myGit/test/test/main.m
+c000000005393C8E30000000000000142
+t1402194147
+s322
+
+N/Users/evan/Desktop/myGit/test/test/test-Info.plist
+c000000005393C8E30000000000000490
+t1402194147
+s1168
+
+N/Users/evan/Desktop/myGit/test/test/test-Prefix.pch
+c000000005393C8E30000000000000158
+t1402194147
+s344
+
+N/Users/evan/Library/MobileDevice/Provisioning Profiles/515F4439-B39C-4E87-B22F-D6C88664E2C6.mobileprovision
+c000000005385A88D0000000000002996
+t1401268365
+s10646
+
+N/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app
+t1402204227
+s340
+
+N/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app.dSYM
+t2
+s0
+
+N/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/Info.plist
+t1402204227
+s1249
+
+N/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/PkgInfo
+t1402204227
+s8
+
+N/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/ResourceRules.plist
+t1402204223
+s150
+
+N/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/embedded.mobileprovision
+t1402204227
+s10646
+
+N/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/en.lproj/InfoPlist.strings
+t1402204225
+s42
+
+N/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/test
+t1402204225
+s200628
+
+N/var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-deqahstdankjimailppxwbrtxdip/test-Prefix.pch.pch
+t1402204224
+s110524
+
+N/var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-djrmbnnltarwetcfgibpxtqojdkd/test-Prefix.pch.pch
+t1402204224
+s87964
+
+N/var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-egaqqqstqzdxgtfqxuueyvjyehlk/test-Prefix.pch.pch
+t1402204224
+s87948
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6cec42bf2744b941^eb3866bf2744b941^---0#1#1#--18"Check dependencies36"A3E5419F-247F-4E9D-9E75-B825BCFECC15-
+
+CCodeSign /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app
+s423897027.069230
+e423897027.280755
+r1
+xCodeSign
+x/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"[1mCodeSign[0m [1m/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app[0m79"[1mCodeSign[0m [1m/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app[0m95ef11c32744b941^6de347c32744b941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/0000000000000000^958"[1mCodeSign[0m [1m/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app[0m    cd /Users/evan/Desktop/myGit/test    export CODESIGN_ALLOCATE="/Applications/Xcode 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate"    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    Using code signing identity "iPhone Developer: zhen he (XRCW7MSKU4)" and provisioning profile "chanjet_All_140524_299" (515F4439-B39C-4E87-B22F-D6C88664E2C6)    /usr/bin/codesign --force --sign 4B9C92B23CF29719B14ECD871177F7410687F54F --resource-rules=/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/ResourceRules.plist --entitlements /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test.xcent /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app36"A22B177E-0AF9-4590-96AB-790BC9D590F7-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CCompileAssetCatalog /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app /Users/evan/Desktop/myGit/test/test/Images.xcassets
+s423897025.412496
+e423897027.024287
+r1
+xCompileAssetCatalog
+x/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app
+x/Users/evan/Desktop/myGit/test/test/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/LaunchImage-700-568h@2x.png
+o/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/Assets.car
+o/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"[1mCompileAssetCatalog[0m /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app [1mtest/Images.xcassets[0m111"[1mCompileAssetCatalog[0m /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app [1mtest/Images.xcassets[0m00ad69c12744b941^4b3a06c32744b941^-303"/* com.apple.actool.compilation-results *//Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/LaunchImage-700-568h@2x.png/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/Assets.car/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@59"file:///Users/evan/Desktop/myGit/test/test/Images.xcassets/0000000000000000^1008"[1mCompileAssetCatalog[0m /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app [1mtest/Images.xcassets[0m    cd /Users/evan/Desktop/myGit/test    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode\ 5.1.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app /Users/evan/Desktop/myGit/test/test/Images.xcassets36"4F460110-B3EA-4499-9AE5-DE982F7EADA6-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/AppDelegate.o /Users/evan/Desktop/myGit/test/test/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423897025.104180
+e423897025.220993
+r1
+xCompileC
+xbuild/test.build/Release-iphoneos/test.build/Objects-normal/arm64/AppDelegate.o
+x/Users/evan/Desktop/myGit/test/test/AppDelegate.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evan/Desktop/myGit/test/test/AppDelegate.m
+d/Users/evan/Desktop/myGit/test/test/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/evan/Desktop/myGit/test/test/AppDelegate.m192"[1mCompileC[0m build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/AppDelegate.o [1mtest/AppDelegate.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler1dcc1ac12744b941^819438c12744b941^---0#0#1#-19%DVTDocumentLocation2@56"file:///Users/evan/Desktop/myGit/test/test/AppDelegate.m0000000000000000^3205"[1mCompileC[0m build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/AppDelegate.o [1mtest/AppDelegate.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evan/Desktop/myGit/test    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/evan/desktop/myGit/test/build/iPhoneOS/include -I/Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources/arm64 -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/evan/desktop/myGit/test/build/iPhoneOS -include /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-deqahstdankjimailppxwbrtxdip/test-Prefix.pch -MMD -MT dependencies -MF /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/AppDelegate.d --serialize-diagnostics /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/AppDelegate.dia -c /Users/evan/Desktop/myGit/test/test/AppDelegate.m -o /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/AppDelegate.o36"1FBF0CE1-3D17-4A81-82DE-0338FD13B386-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/main.o /Users/evan/Desktop/myGit/test/test/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423897025.105130
+e423897025.194958
+r1
+xCompileC
+xbuild/test.build/Release-iphoneos/test.build/Objects-normal/arm64/main.o
+x/Users/evan/Desktop/myGit/test/test/main.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evan/Desktop/myGit/test/test/main.m
+d/Users/evan/Desktop/myGit/test/test/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/evan/Desktop/myGit/test/test/main.m178"[1mCompileC[0m build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/main.o [1mtest/main.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler800e1bc12744b941^9fe931c12744b941^---0#0#1#-19%DVTDocumentLocation2@49"file:///Users/evan/Desktop/myGit/test/test/main.m0000000000000000^3163"[1mCompileC[0m build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/main.o [1mtest/main.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evan/Desktop/myGit/test    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/evan/desktop/myGit/test/build/iPhoneOS/include -I/Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources/arm64 -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/evan/desktop/myGit/test/build/iPhoneOS -include /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-deqahstdankjimailppxwbrtxdip/test-Prefix.pch -MMD -MT dependencies -MF /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/main.dia -c /Users/evan/Desktop/myGit/test/test/main.m -o /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/main.o36"3807015C-B51A-4889-B096-C19DEEB7693E-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.o /Users/evan/Desktop/myGit/test/test/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423897024.802633
+e423897025.141375
+r1
+xCompileC
+xbuild/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.o
+x/Users/evan/Desktop/myGit/test/test/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evan/Desktop/myGit/test/test/AppDelegate.m
+d/Users/evan/Desktop/myGit/test/test/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/evan/Desktop/myGit/test/test/AppDelegate.m192"[1mCompileC[0m build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.o [1mtest/AppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler3e93cdc02744b941^725224c12744b941^---0#0#1#-19%DVTDocumentLocation2@56"file:///Users/evan/Desktop/myGit/test/test/AppDelegate.m0000000000000000^3205"[1mCompileC[0m build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.o [1mtest/AppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evan/Desktop/myGit/test    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/evan/desktop/myGit/test/build/iPhoneOS/include -I/Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources/armv7 -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/evan/desktop/myGit/test/build/iPhoneOS -include /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-egaqqqstqzdxgtfqxuueyvjyehlk/test-Prefix.pch -MMD -MT dependencies -MF /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.dia -c /Users/evan/Desktop/myGit/test/test/AppDelegate.m -o /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.o36"EC9F1D75-A676-4450-A1F7-6E6C1DF6C386-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.o /Users/evan/Desktop/myGit/test/test/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423897024.802956
+e423897025.104486
+r1
+xCompileC
+xbuild/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.o
+x/Users/evan/Desktop/myGit/test/test/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evan/Desktop/myGit/test/test/main.m
+d/Users/evan/Desktop/myGit/test/test/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/evan/Desktop/myGit/test/test/main.m178"[1mCompileC[0m build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.o [1mtest/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler0aa3cdc02744b941^16dd1ac12744b941^---0#0#1#-19%DVTDocumentLocation2@49"file:///Users/evan/Desktop/myGit/test/test/main.m0000000000000000^3163"[1mCompileC[0m build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.o [1mtest/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evan/Desktop/myGit/test    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/evan/desktop/myGit/test/build/iPhoneOS/include -I/Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources/armv7 -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/evan/desktop/myGit/test/build/iPhoneOS -include /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-egaqqqstqzdxgtfqxuueyvjyehlk/test-Prefix.pch -MMD -MT dependencies -MF /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.dia -c /Users/evan/Desktop/myGit/test/test/main.m -o /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.o36"46B669D5-B175-463F-ACC4-DB17D1234CA0-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.o /Users/evan/Desktop/myGit/test/test/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423897024.803331
+e423897025.141183
+r1
+xCompileC
+xbuild/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/evan/Desktop/myGit/test/test/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evan/Desktop/myGit/test/test/AppDelegate.m
+d/Users/evan/Desktop/myGit/test/test/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/evan/Desktop/myGit/test/test/AppDelegate.m194"[1mCompileC[0m build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.o [1mtest/AppDelegate.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler7dcacdc02744b941^a43324c12744b941^---0#0#1#-19%DVTDocumentLocation2@56"file:///Users/evan/Desktop/myGit/test/test/AppDelegate.m0000000000000000^3212"[1mCompileC[0m build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.o [1mtest/AppDelegate.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evan/Desktop/myGit/test    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/evan/desktop/myGit/test/build/iPhoneOS/include -I/Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources/armv7s -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/evan/desktop/myGit/test/build/iPhoneOS -include /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-djrmbnnltarwetcfgibpxtqojdkd/test-Prefix.pch -MMD -MT dependencies -MF /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/evan/Desktop/myGit/test/test/AppDelegate.m -o /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.o36"02953E05-86D6-4427-8012-736ADFE01F7C-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.o /Users/evan/Desktop/myGit/test/test/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423897024.804139
+e423897025.103894
+r1
+xCompileC
+xbuild/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.o
+x/Users/evan/Desktop/myGit/test/test/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evan/Desktop/myGit/test/test/main.m
+d/Users/evan/Desktop/myGit/test/test/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/evan/Desktop/myGit/test/test/main.m180"[1mCompileC[0m build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.o [1mtest/main.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compileradf9cdc02744b941^66a01ac12744b941^---0#0#1#-19%DVTDocumentLocation2@49"file:///Users/evan/Desktop/myGit/test/test/main.m0000000000000000^3170"[1mCompileC[0m build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.o [1mtest/main.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evan/Desktop/myGit/test    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/evan/desktop/myGit/test/build/iPhoneOS/include -I/Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources/armv7s -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/evan/desktop/myGit/test/build/iPhoneOS -include /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-djrmbnnltarwetcfgibpxtqojdkd/test-Prefix.pch -MMD -MT dependencies -MF /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.dia -c /Users/evan/Desktop/myGit/test/test/main.m -o /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.o36"8F89E2A7-133B-4154-9B98-F4290E382766-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CCopyStringsFile /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings
+s423897025.412091
+e423897025.413896
+r1
+xCopyStringsFile
+x/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/en.lproj/InfoPlist.strings
+xtest/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy test/en.lproj/InfoPlist.strings137"[1mCopyStringsFile[0m /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.stringsf69769c12744b941^9df569c12744b941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/evan/Desktop/myGit/test/test/en.lproj/InfoPlist.strings0000000000000000^576"[1mCopyStringsFile[0m /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings    cd /Users/evan/Desktop/myGit/test    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/en.lproj -- test/en.lproj/InfoPlist.strings36"9A167140-7086-4B9D-AC46-87F570C9784F-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CCpResource /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/ResourceRules.plist
+s423897023.403256
+e423897023.406208
+r1
+xCpResource
+x/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+x/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/ResourceRules.plist228"[1mCpResource[0m /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist [1m/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/ResourceRules.plist[0m697067bf2744b941^cafc67bf2744b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/ResourceRules.plist0034c073dfffdf42^903"[1mCpResource[0m /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist [1m/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/ResourceRules.plist[0m    cd /Users/evan/Desktop/myGit/test    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app36"2F7B6275-319C-43BA-A9B3-F2C92CDC3311-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CCreateUniversalBinary /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/test normal armv7\ armv7s\ arm64
+s423897025.392361
+e423897025.411462
+r1
+xCreateUniversalBinary
+x/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/test
+xnormal
+xarmv7 armv7s arm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Create universal binary /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/test125"[1mCreateUniversalBinary[0m [1m/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/test[0m normal armv7\ armv7s\ arm64a68064c12744b941^795769c12744b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/test0034c073dfffdf42^859"[1mCreateUniversalBinary[0m [1m/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/test[0m normal armv7\ armv7s\ arm64    cd /Users/evan/Desktop/myGit/test    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/test -output /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/test36"F97DF642-F9E5-4322-8386-C4B947C7BC00-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CGenerateDSYMFile /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app.dSYM /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/test
+s423897027.027835
+e423897027.063350
+r1
+xGenerateDSYMFile
+x/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app.dSYM
+x/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/test
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Generate /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app.dSYM152"[1mGenerateDSYMFile[0m [1m/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app.dSYM[0m /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/testae2e07c32744b941^4b3c10c32744b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/evan/desktop/myGit/test/build/iPhoneOS/test.app.dSYM0034c073dfffdf42^630"[1mGenerateDSYMFile[0m [1m/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app.dSYM[0m /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/test    cd /Users/evan/Desktop/myGit/test    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/test -o /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app.dSYM36"C89AAD01-8D54-42CD-89C0-35166AC690B5-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CLd /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/test normal arm64
+s423897025.222269
+e423897025.391285
+r1
+xLd
+x/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/test
+xnormal
+xarm64
+d/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/test.LinkFileList
+d/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/AppDelegate.o
+d/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/main.o
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Link /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/test94"[1mLd[0m build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/test normal arm64baf338c12744b941^935264c12744b941^---0#0#1#--1233"[1mLd[0m build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/test normal arm64    cd /Users/evan/Desktop/myGit/test    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/evan/desktop/myGit/test/build/iPhoneOS -F/Users/evan/desktop/myGit/test/build/iPhoneOS -filelist /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/test.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/test_dependency_info.dat -o /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/arm64/test36"664E0F53-7D57-4B6A-9B32-DB7FE510C3FA-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CLd /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test normal armv7
+s423897025.221883
+e423897025.391224
+r1
+xLd
+x/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test
+xnormal
+xarmv7
+d/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test.LinkFileList
+d/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.o
+d/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.o
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Link /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test94"[1mLd[0m build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test normal armv78fe238c12744b941^f54b64c12744b941^---0#0#1#--1233"[1mLd[0m build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test normal armv7    cd /Users/evan/Desktop/myGit/test    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/evan/desktop/myGit/test/build/iPhoneOS -F/Users/evan/desktop/myGit/test/build/iPhoneOS -filelist /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test_dependency_info.dat -o /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test36"BD6F6BA9-A004-48B8-B7B4-51258494CC7B-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CLd /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test normal armv7s
+s423897025.222076
+e423897025.391222
+r1
+xLd
+x/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test
+xnormal
+xarmv7s
+d/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test.LinkFileList
+d/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.o
+d/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.o
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Link /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test96"[1mLd[0m build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test normal armv7s56ef38c12744b941^c23064c12744b941^---0#0#1#--1239"[1mLd[0m build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test normal armv7s    cd /Users/evan/Desktop/myGit/test    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/evan/desktop/myGit/test/build/iPhoneOS -F/Users/evan/desktop/myGit/test/build/iPhoneOS -filelist /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test_dependency_info.dat -o /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test36"3EF9A29A-A756-410F-8F45-64328778A3BF-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CProcessInfoPlistFile /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/Info.plist /Users/evan/Desktop/myGit/test/test/test-Info.plist
+s423897027.024808
+e423897027.027371
+r1
+xProcessInfoPlistFile
+x/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/Info.plist
+x/Users/evan/Desktop/myGit/test/test/test-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Process /Users/evan/Desktop/myGit/test/test/test-Info.plist123"[1mProcessInfoPlistFile[0m /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/Info.plist [1mtest/test-Info.plist[0m446a06c32744b941^c00307c32744b941^---0#0#1#-19%DVTDocumentLocation2@58"file:///Users/evan/Desktop/myGit/test/test/test-Info.plist0000000000000000^880"[1mProcessInfoPlistFile[0m /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/Info.plist [1mtest/test-Info.plist[0m    cd /Users/evan/Desktop/myGit/test    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/evan/Desktop/myGit/test/test/test-Info.plist -genpkginfo /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/ResourceRules.plist -additionalcontentfile /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/assetcatalog_generated_info.plist -o /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/Info.plist36"FC06FBDE-DA7D-444A-9CA5-2D7642DD2CC5-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CProcessPCH /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-deqahstdankjimailppxwbrtxdip/test-Prefix.pch.pch test/test-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423897023.407827
+e423897024.801971
+r1
+xProcessPCH
+x/var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-deqahstdankjimailppxwbrtxdip/test-Prefix.pch.pch
+xtest/test-Prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evan/Desktop/myGit/test/test/test-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile test/test-Prefix.pch285"[1mProcessPCH[0m /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-deqahstdankjimailppxwbrtxdip/test-Prefix.pch.pch test/test-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerda8f68bf2744b941^d74dcdc02744b941^---0#0#1#-19%DVTDocumentLocation2@58"file:///Users/evan/Desktop/myGit/test/test/test-Prefix.pch0000000000000000^3319"[1mProcessPCH[0m /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-deqahstdankjimailppxwbrtxdip/test-Prefix.pch.pch test/test-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evan/Desktop/myGit/test    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/evan/desktop/myGit/test/build/iPhoneOS/include -I/Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources/arm64 -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/evan/desktop/myGit/test/build/iPhoneOS --serialize-diagnostics /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-deqahstdankjimailppxwbrtxdip/test-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-deqahstdankjimailppxwbrtxdip/test-Prefix.pch.d -c /Users/evan/Desktop/myGit/test/test/test-Prefix.pch -o /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-deqahstdankjimailppxwbrtxdip/test-Prefix.pch.pch36"421831DB-B1DA-4D1F-BFC8-7875DC0BE572-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CProcessPCH /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-djrmbnnltarwetcfgibpxtqojdkd/test-Prefix.pch.pch test/test-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423897023.407574
+e423897024.787006
+r1
+xProcessPCH
+x/var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-djrmbnnltarwetcfgibpxtqojdkd/test-Prefix.pch.pch
+xtest/test-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evan/Desktop/myGit/test/test/test-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile test/test-Prefix.pch286"[1mProcessPCH[0m /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-djrmbnnltarwetcfgibpxtqojdkd/test-Prefix.pch.pch test/test-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerbc9268bf2744b941^d7dbcac02744b941^---0#0#1#-19%DVTDocumentLocation2@58"file:///Users/evan/Desktop/myGit/test/test/test-Prefix.pch0000000000000000^3322"[1mProcessPCH[0m /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-djrmbnnltarwetcfgibpxtqojdkd/test-Prefix.pch.pch test/test-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evan/Desktop/myGit/test    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/evan/desktop/myGit/test/build/iPhoneOS/include -I/Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources/armv7s -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/evan/desktop/myGit/test/build/iPhoneOS --serialize-diagnostics /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-djrmbnnltarwetcfgibpxtqojdkd/test-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-djrmbnnltarwetcfgibpxtqojdkd/test-Prefix.pch.d -c /Users/evan/Desktop/myGit/test/test/test-Prefix.pch -o /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-djrmbnnltarwetcfgibpxtqojdkd/test-Prefix.pch.pch36"05D710F7-FE85-4D98-8D79-9D85DE714DD0-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CProcessPCH /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-egaqqqstqzdxgtfqxuueyvjyehlk/test-Prefix.pch.pch test/test-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423897023.406990
+e423897024.793624
+r1
+xProcessPCH
+x/var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-egaqqqstqzdxgtfqxuueyvjyehlk/test-Prefix.pch.pch
+xtest/test-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evan/Desktop/myGit/test/test/test-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile test/test-Prefix.pch285"[1mProcessPCH[0m /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-egaqqqstqzdxgtfqxuueyvjyehlk/test-Prefix.pch.pch test/test-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler809c68bf2744b941^242bcbc02744b941^---0#0#1#-19%DVTDocumentLocation2@58"file:///Users/evan/Desktop/myGit/test/test/test-Prefix.pch0000000000000000^3319"[1mProcessPCH[0m /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-egaqqqstqzdxgtfqxuueyvjyehlk/test-Prefix.pch.pch test/test-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evan/Desktop/myGit/test    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/evan/desktop/myGit/test/build/iPhoneOS/include -I/Applications/Xcode\ 5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources/armv7 -I/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/evan/desktop/myGit/test/build/iPhoneOS --serialize-diagnostics /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-egaqqqstqzdxgtfqxuueyvjyehlk/test-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-egaqqqstqzdxgtfqxuueyvjyehlk/test-Prefix.pch.d -c /Users/evan/Desktop/myGit/test/test/test-Prefix.pch -o /var/folders/w_/9fgswt_578z2j0_7r0k76zxc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/test-Prefix-egaqqqstqzdxgtfqxuueyvjyehlk/test-Prefix.pch.pch36"310F4FA4-ED78-4EA0-B41D-14F6D3C229DD-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CProcessProductPackaging /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test.xcent
+s423897027.066037
+e423897027.068875
+r1
+xProcessProductPackaging
+x/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection221"[1mProcessProductPackaging[0m /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/test.build/Release-iphoneos/test.build/test.xcent[0m221"[1mProcessProductPackaging[0m /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/test.build/Release-iphoneos/test.build/test.xcent[0m41f410c32744b941^6ea311c32744b941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test.xcent0034c073dfffdf42^749"[1mProcessProductPackaging[0m /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/test.build/Release-iphoneos/test.build/test.xcent[0m    cd /Users/evan/Desktop/myGit/test    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/evan/Desktop/myGit/test/build/test.build/Release-iphoneos/test.build/test.xcent36"1E4AFE51-37E2-40E1-B924-51C67AA34751-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CProcessProductPackaging /Users/evan/Library/MobileDevice/Provisioning\ Profiles/515F4439-B39C-4E87-B22F-D6C88664E2C6.mobileprovision /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/embedded.mobileprovision
+s423897027.063808
+e423897027.065377
+r1
+xProcessProductPackaging
+x/Users/evan/Library/MobileDevice/Provisioning Profiles/515F4439-B39C-4E87-B22F-D6C88664E2C6.mobileprovision
+x/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection228"[1mProcessProductPackaging[0m /Users/evan/Library/MobileDevice/Provisioning\ Profiles/515F4439-B39C-4E87-B22F-D6C88664E2C6.mobileprovision [1m/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/embedded.mobileprovision[0m228"[1mProcessProductPackaging[0m /Users/evan/Library/MobileDevice/Provisioning\ Profiles/515F4439-B39C-4E87-B22F-D6C88664E2C6.mobileprovision [1m/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/embedded.mobileprovision[0mae6310c32744b941^7bbc10c32744b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/embedded.mobileprovision0034c073dfffdf42^706"[1mProcessProductPackaging[0m /Users/evan/Library/MobileDevice/Provisioning\ Profiles/515F4439-B39C-4E87-B22F-D6C88664E2C6.mobileprovision [1m/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/embedded.mobileprovision[0m    cd /Users/evan/Desktop/myGit/test    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility /Users/evan/Library/MobileDevice/Provisioning\ Profiles/515F4439-B39C-4E87-B22F-D6C88664E2C6.mobileprovision -o /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/embedded.mobileprovision36"4899B31D-35D7-46E5-BD69-CC2B95FF73F9-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
+CTouch /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app
+r0
+
+CValidate /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app
+s423897027.281121
+e423897027.347331
+r1
+xValidate
+x/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"[1mValidate[0m [1m/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app[0m79"[1mValidate[0m [1m/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app[0ma70448c32744b941^f1f258c32744b941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/evan/desktop/myGit/test/build/iPhoneOS/test.app/0000000000000000^552"[1mValidate[0m [1m/Users/evan/desktop/myGit/test/build/iPhoneOS/test.app[0m    cd /Users/evan/Desktop/myGit/test    export PATH="/Applications/Xcode 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    export PRODUCT_TYPE=com.apple.product-type.application    /Applications/Xcode\ 5.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/evan/desktop/myGit/test/build/iPhoneOS/test.app36"924A32B8-FD1F-432B-8766-758F1663C81C-
+bE98949F4-28FB-48F5-8D72-618CB040907B
+
