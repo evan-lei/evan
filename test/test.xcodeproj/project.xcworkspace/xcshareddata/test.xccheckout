@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>2A590175-0CF9-4531-BC4C-C8693F9EFC0F</string>
+	<string>CDA81E19-171E-47E1-8C20-2DF71844F7DA</string>
 	<key>IDESourceControlProjectName</key>
 	<string>test</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>662892DA-B290-4105-A4AA-C79FD067A512</key>
+		<key>027ABEDA-30F3-40B1-8A5E-81B716494E41</key>
 		<string>https://github.com/evan-lei/evan.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>test/test.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>662892DA-B290-4105-A4AA-C79FD067A512</key>
+		<key>027ABEDA-30F3-40B1-8A5E-81B716494E41</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>662892DA-B290-4105-A4AA-C79FD067A512</string>
+	<string>027ABEDA-30F3-40B1-8A5E-81B716494E41</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>662892DA-B290-4105-A4AA-C79FD067A512</string>
+			<string>027ABEDA-30F3-40B1-8A5E-81B716494E41</string>
 			<key>IDESourceControlWCCName</key>
 			<string>myGit</string>
 		</dict>

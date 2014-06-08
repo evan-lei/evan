@@ -5,7 +5,7 @@
 	<key>application-identifier</key>
 	<string>7SPKA57M65.com.chanjet.test</string>
 	<key>get-task-allow</key>
-	<true/>
+	<false/>
 	<key>keychain-access-groups</key>
 	<array>
 		<string>7SPKA57M65.com.chanjet.test</string>
