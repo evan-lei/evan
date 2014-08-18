@@ -19,6 +19,7 @@
 		20B5FDD11944006300AF3BE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5FDB91944006300AF3BE5 /* UIKit.framework */; };
 		20B5FDD91944006300AF3BE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20B5FDD71944006300AF3BE5 /* InfoPlist.strings */; };
 		20B5FDDB1944006300AF3BE5 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B5FDDA1944006300AF3BE5 /* testTests.m */; };
+		20E6203B194B0A640025EF4B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E6203A194B0A640025EF4B /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		20B5FDD61944006300AF3BE5 /* testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testTests-Info.plist"; sourceTree = "<group>"; };
 		20B5FDD81944006300AF3BE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20B5FDDA1944006300AF3BE5 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		20E62039194B0A640025EF4B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		20E6203A194B0A640025EF4B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				20B5FDC51944006300AF3BE5 /* AppDelegate.m */,
 				20B5FDC71944006300AF3BE5 /* Images.xcassets */,
 				20B5FDBC1944006300AF3BE5 /* Supporting Files */,
+				20E62039194B0A640025EF4B /* RootViewController.h */,
+				20E6203A194B0A640025EF4B /* RootViewController.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			files = (
 				20B5FDC61944006300AF3BE5 /* AppDelegate.m in Sources */,
 				20B5FDC21944006300AF3BE5 /* main.m in Sources */,
+				20E6203B194B0A640025EF4B /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
